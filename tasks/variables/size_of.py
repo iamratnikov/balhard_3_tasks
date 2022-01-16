@@ -18,7 +18,7 @@ def size_in_kb(some_object: Any) -> float:
     :param some_object: любой объект
     :return: стока вида "1.23 кб"
     """
-    result = getsizeof(some_object) /  1024
+    result = getsizeof(some_object) / 1024
     return result
 
 
